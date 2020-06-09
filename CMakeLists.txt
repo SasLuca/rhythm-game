@@ -9,5 +9,5 @@ set(BUILD_GAMES    OFF CACHE BOOL "" FORCE) # or games
 
 add_subdirectory(libs/raylib)
 
-add_executable(raylib_template src/main.c)
-target_link_libraries(raylib_template PRIVATE raylib)
+add_executable(rhythm src/main.c)
+target_link_libraries(rhythm PRIVATE raylib)
